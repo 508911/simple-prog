@@ -1,0 +1,22 @@
+public class Main {
+    int p;
+    String st;
+    double mk;
+    void Student(String st, int p, double mk)
+    {
+        this.st=st;
+        this.p=p;
+        this.mk=mk;
+
+    }
+    void display()
+    {
+        System.out.println("Rollno   name   Marks");
+        System.out.println(p+"  "+st+"  "+mk);
+    }
+    public static void main(String[] args) {
+        Main g=new Main();
+        g.Student("meena", 789, 85.3);
+        g.display();
+    }
+}
